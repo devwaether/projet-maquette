@@ -1,1 +1,33 @@
+<<<<<<< HEAD
 p
+=======
+
+    div {
+
+        border: 1px blue solid ;
+        padding: 5px;
+        width: 20%;
+        height: 100px;
+        background-color:white;
+        border-radius: 4px;
+        
+         
+        
+    }
+
+    img {
+        position: relative;
+    }
+
+    p{
+        display: flex;
+        position: absolute;
+        top : 12px;
+        left: 130px;
+        
+    } 
+.moi{
+    position: absolute;
+    top: 80px;
+    
+>>>>>>> dev
