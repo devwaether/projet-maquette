@@ -67,3 +67,55 @@ nav a {
 .element3 {
     margin-right: 15px;
 }
+
+
+.element4 {
+    margin-right: 15px; margin-top: 15px;
+}
+.element5 {
+    margin-right: 15px; margin-top: 15px;
+}
+.element6 {
+    margin-right: 15px; margin-top: 15px;
+}
+
+section {
+    display: flex
+    
+    
+}
+article{
+    flex:;
+    background-color: #E3E4E4  ;
+    padding: 5px;
+    padding-left: 20px;
+    margin-right: 25px;
+    border-radius: 9px;
+
+    
+}
+
+
+
+
+aside {
+    
+   
+    background-color :#E3E4E4  ;
+    flex:2;
+    border-radius:9px;
+    position: relative;
+    padding:10px;
+    padding-bottom: 0;
+   
+
+    
+    
+}
+
+.image_marseille {
+    display : flex
+
+   
+}
+
