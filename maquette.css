@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 p
 =======
+=======
+p
+>>>>>>> dev
 
     div {
 
@@ -29,5 +33,241 @@ p
 .moi{
     position: absolute;
     top: 80px;
+<<<<<<< HEAD
     
+>>>>>>> dev
+=======
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black ;
+
+}
+.image_logement {
+    display: flex;
+    
+}
+
+.image_logement2 {
+    display: flex;
+}
+
+.element1 {
+    margin-right: 15px;
+}
+.element2 {
+    margin-right: 15px;
+    
+    height: 60px;
+    border:50px;
+    
+}
+.element3 {
+    margin-right: 15px;
+}
+
+
+.element4 {
+    margin-right: 15px; margin-top: 15px;
+}
+.element5 {
+    margin-right: 15px; margin-top: 15px;
+}
+.element6 {
+    margin-right: 15px; margin-top: 15px;
+}
+
+section {
+    display: flex
+    
+    
+}
+article{
+    flex:;
+    background-color: #E3E4E4  ;
+    padding: 5px;
+    padding-left: 20px;
+    margin-right: 25px;
+    border-radius: 9px;
+
+    
+}
+
+
+
+
+aside {
+    
+   
+    background-color :#E3E4E4  ;
+    flex:2;
+    border-radius:9px;
+    position: relative;
+    padding:10px;
+    padding-bottom: 0;
+   
+
+    
+    
+}
+
+.image_marseille {
+    display : flex
+
+   
+}
+
+
+.element1{
+    border: 1px white solid;
+    padding: 5px;
+    height: 100px;
+    border-radius: 13px;
+    background: white;
+    padding-bottom: 45px;
+    margin-bottom: 20px;  
+     
+}
+
+.pho1{
+    border-top-left-radius: 10px; 
+    border-top-right-radius :10px ;
+    position: relative;
+    top: -3px;
+    margin-left:-3px;
+    margin-right:-3px ;
+    
+}
+.para1{
+    display: flex;
+    position: absolute;
+    bottom:170px;
+    left: 230px;
+    font-size: 13px;
+    
+}
+
+.br1{
+    position: absolute;
+    top: 440px;
+    font-size: 13px;
+    left:230px;
+}
+
+
+.element2{
+    border: 1px white solid;
+    padding: 5px;
+    height: 100px;
+    border-radius: 13px;
+    background: white;
+    padding-bottom: 45px;
+    margin-bottom: 20px;  
+     
+}
+
+.pho2{
+    border-top-left-radius: 10px; 
+    border-top-right-radius :10px ;
+    position: relative;
+    top: -3px;
+    margin-left:-3px;
+    margin-right:-3px ;
+    
+}
+.para2{
+    display: flex;
+    position: absolute;
+    top:418px;
+    font-size: 13px;
+    left:433px;
+    
+}
+
+.br2{
+    position: absolute;
+    top: 440px;
+    font-size: 13px;
+    left:433px ; 
+}
+
+
+.element3{
+    border: 1px white solid;
+    padding: 5px;
+    height: 100px;
+    border-radius: 13px;
+    background: white;
+    padding-bottom: 45px;
+    margin-bottom: 20px;  
+     
+}
+
+.pho3{
+    border-top-left-radius: 10px; 
+    border-top-right-radius :10px ;
+    position: relative;
+    top: -3px;
+    margin-left:-3px;
+    margin-right:-3px ;
+    
+}
+.para3{
+    display: flex;
+    position: absolute;
+    top:418px;
+    font-size: 13px;
+    left:630px ;
+    
+}
+
+.br3{
+    position: absolute;
+    top: 440px;
+    font-size: 13px;
+    left: 630px;
+
+    
+}
+
+.element4{
+    border: 1px white solid;
+    padding: 5px;
+    height: 100px;
+    border-radius: 13px;
+    background: white;
+    padding-bottom: 45px;
+    margin-bottom: 20px;  
+     
+}
+
+.pho4{
+    border-top-left-radius: 10px; 
+    border-top-right-radius :10px ;
+    position: relative;
+    top: -3px;
+    margin-left:-3px;
+    margin-right:-3px ;
+    
+}
+.para4{
+    display: flex;
+    position: absolute;
+    bottom:-19px;
+    font-size: 13px;
+    left: 230px;
+    
+}
 >>>>>>> dev
