@@ -1,277 +1,45 @@
 
 
-    div {
+#bloc_page{
+    width:950px;
+    margin:auto;
+}
 
-        border: 1px blue solid ;
-        padding: 5px;
-        width: 20%;
-        height: 100px;
-        background-color:white;
-        border-radius: 4px;
-        
-         
-        
-    }
+form {
+    display:flex;
+}
+button{
+    background-color:blue;
+    border: 1px solid cornflowerblue;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    padding: 8px;
+    
+    
+}
 
-    img {
-        position: relative;
-    }
+ input
+{
+    
+    padding:8px;
+    border-top:1px solid #bbb;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid #bbb
 
-    p{
-        display: flex;
-        position: absolute;
-        top : 12px;
-        left: 130px;
-        
-    } 
-.moi{
-    position: absolute;
-    top: 80px;
+}
 
-    .br4{
-        position: absolute;
-        font-size: 13px;
-        bottom:-32px;
-        left: 230px;
-        
-    }
-    
-    
-    .element5{
-        border: 1px white solid;
-        padding: 5px;
-        height: 100px;
-        border-radius: 13px;
-        background: white;
-        padding-bottom: 45px;
-        margin-bottom: 20px;  
-         
-    }
-    
-    .pho5{
-        border-top-left-radius: 10px; 
-        border-top-right-radius :10px ;
-        position: relative;
-        top: -3px;
-        margin-left:-3px;
-        margin-right:-3px ;
-        
-    }
-    .para5{
-        display: flex;
-        position: absolute;
-        bottom:-19px;
-        font-size: 13px;
-        left:432px;
-       
-    }
-    
-    .br5{
-        position: absolute;
-        font-size: 13px;
-        bottom:-32px;
-        left: 432px;
-    }
-    
-    
-    .element6{
-        border: 1px white solid;
-        padding: 5px;
-        height: 100px;
-        border-radius: 13px;
-        background: white;
-        padding-bottom: 45px;
-        margin-bottom: 20px;  
-         
-    }
-    
-    .pho6{
-        border-top-left-radius: 10px; 
-        border-top-right-radius :10px ;
-        position: relative;
-        top: -3px;
-        margin-left:-3px;
-        margin-right:-3px ;
-        
-    }
-    .para6{
-        display: flex;
-        position: absolute;
-        bottom:-19px;
-        font-size: 13px;
-        left:633px;
-       
-        
-    }
-    
-    .br6{
-        position: absolute;
-         bottom:-32px;
-        font-size: 13px;
-        left: 633px;
-        
-    }
-    
-    .element7{
-        
-        border: 1px white solid;
-        width: 87%;
-        padding: 5px;
-        height: 100px;
-        border-radius: 16px;
-        background: white;
-        margin-bottom: 18px;
-        padding-bottom: 0px;
-        padding-top: 4px;
-        
-        
-        
-    }
-    .pho7{
-        position: relative;
-        border-top-left-radius: 12px;
-        border-bottom-left-radius: 12px;
-        top:-2.5px ;
-        right: 3px;
-        
-        
-    }
-    .para7{
-        
-            display: flex;
-            position: absolute;
-            top:70px;
-            left: 130px;
-            font-size: 12px;           
-    }
-    
-    .br7 {
-        position: absolute;
-        top:106px;
-       font-size: 13px;
-       left:130px;
-    }
-    
-    .element8{
-        border: 1px white solid;
-        width: 87%;
-        padding: 5px;
-        height: 100px;
-        border-radius: 16px;
-        background: white;
-        margin-bottom: 18px;
-        padding-bottom: 0px;
-        padding-top: 4px;   
-    }
-    .pho8{
-        position: relative;
-        border-top-left-radius:12px;
-        border-bottom-left-radius:12px;
-        top:-2.5px ;
-        right: 3px;  
-    }
-    
-    .para8{
-        display: flex;
-        position: absolute;
-        bottom:235px;
-        left: 130px;
-        font-size: 12px;
-    }
-    .br8{
-        position: absolute;
-        top:230px;
-       font-size: 13px;
-       left:130px;
-    
-    }
-    
-    
-    .element9 {
-        border: 1px white solid;
-        width: 87%;
-        padding: 5px;
-        height: 100px;
-        border-radius: 16px;
-        background: white;
-        margin-bottom: 18px;
-        padding-bottom: 0px;
-        padding-top: 4px;
-        
-    }
-    .pho9{
-        position: relative;
-        border-top-left-radius: 12px;
-        border-bottom-left-radius: 12px;
-        top:-2.5px ;
-        right: 3px;
-        
-    }
-    .para9{
-        display: flex;
-        position: absolute;
-        top:317px;
-        left: 130px;
-        font-size: 13px;
-    }
-    .br9{
-        font-size: 13px;
-        position: absolute;
-        TOP:357px;
-       font-size: 13px;
-       left: 130px;
-    }
-    
-    
-      
-    .element10 {
-        margin-right: 15px;
-    }
-    
-    .element11{
-        margin-right:15px;
-    
-        margin-bottom:15px
-    }
-    
-    .element13{
-        margin-right:15px
-    }
-    
-    .element14{
-        margin-bottom:15px;
-    }
-    footer {
-        display:flex;
-        background-color:#E3E4E4 ;
-        margin-top: 15px;
-        padding: 17px;
-        font-size: 10px;
-        width:1000px;
-        margin-left:170px;
-    
-         
-    }
-    
-    .a_propos {
-        margin-right: 250px;
-    }
-    .Nos_Hebergements {
-        margin-right: 250px;
-    }
-    .Assistance {
-        margin-right:250px;
-    }
-    
-    
-        .arrondie {
-            
-            -moz-border-radius:7px;
-            -webkit-border-radius:7px;
-            border-radius:7px;
-    }
-    
 
+body {
+    background-color:white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 nav ul {
     list-style: none;
@@ -285,9 +53,11 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black ;
+    color: black ; 
 
-}
+    }
+
+    
 .image_logement {
     display: flex;
     
@@ -311,7 +81,6 @@ nav a {
     margin-right: 15px;
 }
 
-
 .element4 {
     margin-right: 15px; margin-top: 15px;
 }
@@ -323,37 +92,24 @@ nav a {
 }
 
 section {
-    display: flex
-    
-    
+    display: flex  
 }
 article{
-    flex:;
     background-color: #E3E4E4  ;
     padding: 5px;
     padding-left: 20px;
     margin-right: 25px;
-    border-radius: 9px;
-
-    
+    border-radius: 9px;  
 }
-
-
-
 
 aside {
     
-   
     background-color :#E3E4E4  ;
     flex:2;
     border-radius:9px;
     position: relative;
     padding:10px;
-    padding-bottom: 0;
-   
-
-    
-    
+    padding-bottom: 0; 
 }
 
 .image_marseille {
@@ -363,12 +119,13 @@ aside {
 }
 
 
+
 .element1{
     border: 1px white solid;
     padding: 5px;
     height: 100px;
     border-radius: 13px;
-    background: white;
+    background:white;
     padding-bottom: 45px;
     margin-bottom: 20px;  
      
@@ -384,19 +141,15 @@ aside {
     
 }
 .para1{
-    display: flex;
-    position: absolute;
-    bottom:170px;
-    left: 230px;
-    font-size: 13px;
-    
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left:5px;
 }
 
 .br1{
-    position: absolute;
-    top: 440px;
-    font-size: 13px;
-    left:230px;
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left:5px;
 }
 
 
@@ -421,19 +174,16 @@ aside {
     
 }
 .para2{
-    display: flex;
-    position: absolute;
-    top:418px;
-    font-size: 13px;
-    left:433px;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left:5px ;
     
 }
 
 .br2{
-    position: absolute;
-    top: 440px;
-    font-size: 13px;
-    left:433px ; 
+font-size: 12px;
+ margin-top: -30px;
+ margin-left:5px;
 }
 
 
@@ -458,19 +208,16 @@ aside {
     
 }
 .para3{
-    display: flex;
-    position: absolute;
-    top:418px;
-    font-size: 13px;
-    left:630px ;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left:5px ;
     
 }
 
 .br3{
-    position: absolute;
-    top: 440px;
-    font-size: 13px;
-    left: 630px;
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left:5px;
 
     
 }
@@ -496,11 +243,189 @@ aside {
     
 }
 .para4{
-    display: flex;
-    position: absolute;
-    bottom:-19px;
-    font-size: 13px;
-    left: 230px;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left:5px ;
+   
     
+}
+
+.br4{
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left:5px;
+
+    
+}
+
+.element5{
+    border: 1px white solid;
+    padding: 5px;
+    height: 100px;
+    border-radius: 13px;
+    background: white;
+    padding-bottom: 45px;
+    margin-bottom: 20px;  
+     
+}
+
+.pho5{
+    border-top-left-radius: 10px; 
+    border-top-right-radius :10px ;
+    position: relative;
+    top: -3px;
+    margin-left:-3px;
+    margin-right:-3px ;
+    
+}
+.para5{
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left:5px;
+
+   
+}
+
+.br5{
+   
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left:5px;
+}
+
+.element6{
+    border: 1px white solid;
+    padding: 5px;
+    height: 100px;
+    border-radius: 13px;
+    background: white;
+    padding-bottom: 45px;
+    margin-bottom: 20px;  
+     
+}
+
+.pho6{
+    border-top-left-radius: 10px; 
+    border-top-right-radius :10px ;
+    position: relative;
+    top: -3px;
+    margin-left:-3px;
+    margin-right:-3px ;
+    
+}
+.para6{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top:3px;
+    
+}
+
+.br6{
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left:5px;
+
+    
+}
+
+.element7{
+    
+    border: 1px white solid;
+    width: 87%;
+    padding: 5px;
+    height: 100px;
+    border-radius: 16px;
+    background: white;
+    margin-bottom: 18px;
+    padding-bottom: 0px;
+    padding-top: 4px;
+    
+    
+    
+}
+.pho7{
+    position: relative;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    top:-2.5px ;
+    right: 3px;
+    
+    
+}
+.para7{
+    font-size: 12px;
+    margin-top:-93px;
+    margin-left:110px;                 
+}
+
+.br7 {
+
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left:110px;
+
+}
+
+.element8{
+    border: 1px white solid;
+    width: 87%;
+    padding: 5px;
+    height: 100px;
+    border-radius: 16px;
+    background: white;
+    margin-bottom: 18px;
+    padding-bottom: 0px;
+    padding-top: 4px;   
+}
+.pho8{
+    position: relative;
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    top:-2.5px ;
+    right: 3px; 
+      
+}
+
+.para8{
+    font-size: 12px;
+    margin-top:-93px;
+    margin-left:110px;  
+}
+.br8{
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left:110px;
+}
+
+
+.element9 {
+    border: 1px white solid;
+    width: 87%;
+    padding: 5px;
+    height: 100px;
+    border-radius: 16px;
+    background: white;
+    margin-bottom: 18px;
+    padding-bottom: 0px;
+    padding-top: 4px;
+    
+}
+.pho9{
+    position: relative;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    top:-2.5px ;
+    right: 3px;
+    
+}
+.para9{
+    font-size: 12px;
+    margin-top:-93px;
+    margin-left:110px; 
+}
+.br9{
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left:110px;
 }
 
