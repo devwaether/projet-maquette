@@ -92,24 +92,36 @@ nav a {
 }
 
 section {
-    display: flex  
+    display: flex  ;
+
+    
 }
 article{
     background-color: #E3E4E4  ;
     padding: 5px;
     padding-left: 20px;
     margin-right: 25px;
-    border-radius: 9px;  
+    border-radius: 9px; 
+    margin-bottom: -px; 
+    
+}
+.Haut {
+    margin-top: 1px;
+}
+.activité {
+    margin-top: 50px;
+}
+.image_droite{
+    padding-top: px;
 }
 
 aside {
     
     background-color :#E3E4E4  ;
-    flex:2;
+    flex: 0.9;
     border-radius:9px;
     position: relative;
     padding:10px;
-    padding-bottom: 0; 
 }
 
 .image_marseille {
@@ -128,6 +140,7 @@ aside {
     background:white;
     padding-bottom: 45px;
     margin-bottom: 20px;  
+    
      
 }
 
@@ -161,7 +174,7 @@ aside {
     background: white;
     padding-bottom: 45px;
     margin-bottom: 20px;  
-     
+    
 }
 
 .pho2{
@@ -331,7 +344,7 @@ font-size: 12px;
 .element7{
     
     border: 1px white solid;
-    width: 87%;
+    width: 88%;
     padding: 5px;
     height: 100px;
     border-radius: 16px;
@@ -339,6 +352,7 @@ font-size: 12px;
     margin-bottom: 18px;
     padding-bottom: 0px;
     padding-top: 4px;
+    margin-left: 6px;
     
     
     
@@ -368,7 +382,7 @@ font-size: 12px;
 
 .element8{
     border: 1px white solid;
-    width: 87%;
+    width: 88%;
     padding: 5px;
     height: 100px;
     border-radius: 16px;
@@ -376,6 +390,7 @@ font-size: 12px;
     margin-bottom: 18px;
     padding-bottom: 0px;
     padding-top: 4px;   
+    margin-left: 6px;
 }
 .pho8{
     position: relative;
@@ -400,7 +415,7 @@ font-size: 12px;
 
 .element9 {
     border: 1px white solid;
-    width: 87%;
+    width: 88%;
     padding: 5px;
     height: 100px;
     border-radius: 16px;
@@ -408,6 +423,7 @@ font-size: 12px;
     margin-bottom: 18px;
     padding-bottom: 0px;
     padding-top: 4px;
+    margin-left: 6px;
     
 }
 .pho9{
@@ -431,7 +447,7 @@ font-size: 12px;
 
  
 .element10 {
-    margin-right:15px ;
+    margin-right:25px ;
     border-radius: 15px;
     margin-bottom: 35px;    
     border: 1px white solid;
@@ -457,7 +473,7 @@ font-size: 12px;
   }
 
 .element11{
-    margin-right:15px;
+    margin-right:25px;
     margin-bottom:31px;  
     padding: 5px;
     border:1px white solid ;
@@ -485,7 +501,7 @@ font-size: 12px;
     padding: 5px;
     border: 1px white solid;
     border-radius: 15px;
-    margin-right:15px;
+    margin-right:25px;
     margin-bottom: 35px;
     box-shadow: 0 1px 10px -6px #777;
     
@@ -509,7 +525,7 @@ font-size: 12px;
 }
 
 .element13{
-    margin-right:15px;
+    margin-right:25px;
     box-shadow: 0 1px 10px -6px #777 ;
     padding: 5px;
     border-radius: 15px;
@@ -594,7 +610,7 @@ footer {
 .a_propos {
     margin-right: 250px;
 }
-.Nos_Hebergements {
+.Nos_Hébergements {
     margin-right: 250px;
 }
 .Assistance {
