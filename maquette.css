@@ -5,6 +5,12 @@
     margin:auto;
     padding-top: 20px;
 }
+@media screen and (max-width :1024px ) {
+
+#bloc_page:{
+    width:auto; }
+
+ }
 
 
 a:hover {
@@ -85,6 +91,40 @@ nav a {
     color: black ; 
 
     }
+    .econo{
+        border: 1px solid #777;
+        padding:8px;
+        border-radius: 20px;
+        width: 120px;
+        text-align: center;
+        margin-top: 10px
+    }
+    .famil{
+        border: 1px solid #777;
+        padding:8px;
+        border-radius: 20px;
+        width: 120px;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+    .Roman{
+        border: 1px solid #777;
+        padding:8px;
+        border-radius: 20px;
+        width: 120px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .Anim{
+        border: 1px solid #777;
+        padding:8px;
+        border-radius: 20px;
+        width: 170px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
 
     
 .image_logement {
