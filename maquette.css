@@ -3,31 +3,52 @@
 #bloc_page{
     width:950px;
     margin:auto;
+    padding-top: 20px;
+}
+
+
+a:hover {
+    color:blue;
+    border-top: 1px blue solid;
+    padding-top: 25px;
+}
+a:focus{
+    color: blue;
 }
 
 form {
     display:flex;
 }
+.inp{
+    font-weight: bold;
+}
+
+i{
+    border: 1px solid #EEEEEE;
+    padding: 12px;
+    background:#EEEEEE ;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+
+}
+
 button{
     background-color:blue;
     border: 1px solid cornflowerblue;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
     color: white;
-    padding: 8px;
-    
-    
+    padding: 12px; 
 }
 
  input
-{
-    
+{   
     padding:8px;
-    border-top:1px solid #bbb;
+    border-top:1px solid #EEEEEE;
     border-left:none;
     border-right:none;
-    border-bottom:1px solid #bbb
-
+    border-bottom:1px solid #EEEEEE       
 }
 
 
@@ -40,10 +61,18 @@ header {
     justify-content: space-between;
     
 }
+.descr{
+    margin-bottom: -8px;
+    font-weight: bold;
+}
+nav {
+    margin-left: -50px;
+}
 
 nav ul {
     list-style: none;
     display: flex;
+    margin-right:100px;
 
 }
 
@@ -447,7 +476,7 @@ font-size: 12px;
 
  
 .element10 {
-    margin-right:25px ;
+    margin-right:28px ;
     border-radius: 15px;
     margin-bottom: 35px;    
     border: 1px white solid;
@@ -473,7 +502,7 @@ font-size: 12px;
   }
 
 .element11{
-    margin-right:25px;
+    margin-right:28px;
     margin-bottom:31px;  
     padding: 5px;
     border:1px white solid ;
@@ -501,7 +530,7 @@ font-size: 12px;
     padding: 5px;
     border: 1px white solid;
     border-radius: 15px;
-    margin-right:25px;
+    margin-right:28px;
     margin-bottom: 35px;
     box-shadow: 0 1px 10px -6px #777;
     
@@ -525,7 +554,7 @@ font-size: 12px;
 }
 
 .element13{
-    margin-right:25px;
+    margin-right:28px;
     box-shadow: 0 1px 10px -6px #777 ;
     padding: 5px;
     border-radius: 15px;
@@ -593,7 +622,7 @@ font-size: 12px;
     font-size: 12px;
     margin-top: 8px;
     margin-left: 12px;
-    margin-bottom: 9px;
+    margin-bottom: 6px;
 }
 footer {
     display:flex;
