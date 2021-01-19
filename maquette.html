@@ -9,30 +9,39 @@
 </head>
 <body>
     <div id="bloc_page">
-        <header>
-          <div id="titre_principal">
-              <div id="image_logo">
-                  <img src="D.photo/reservia.svg"> 
-              </div> 
-          </div> 
-              <nav>
-                 <ul>
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
-                 </ul>
-              </nav>
-          </header>
-                 <div>
+        
+            <header>
+                <div id="titre_principal">
+                    <div id="image_logo">
+                        <img src="D.photo/reservia.svg"> 
+                    </div> 
+                </div> 
+                    <nav>
+                       <ul>
+                          <li><a href="#">Herbergements</a></li>
+                          <li><a href="#">Activités</a></li>
+                          <li><a href="#">S'inscrire</a></li>
+                       </ul>
+                    </nav>
+                </header>
                <p class="titreheader">Trouvez votre hebergement pour des vacances de rêve</p>
-               <p>En plein centre ville ou en pleine nature</p>
-               <form >
+               <p class="paragraphe_header">En plein centre ville ou en pleine nature</p>
+            
+               <form>
                    <i class="fas fa-map-marker-alt"></i>
                    <input type="text" placeholder="Marseille, France">
                    <button type="submit">Rechercher</button>
-               </form>
-            </div>
-              
+               </form>  
+               <nav>
+                  <ul>
+                    <li><a href="#"><h4>Filtres</h4></a></li>
+                    <li><a href="#"><h4 class="lien">Économique</h4></a></li>
+                    <li><a href=#><h4 class="lien">Familial</h4></a></li>
+                    <li><a href="#"><h4 class="lien">Romantique</h4></a></li>
+                    <li><a href="#"><h4 class="lien">Animaux autorisés</h4></a></li>
+                 </ul>
+              </nav>
+
                <p>Plus de 500 logements sont disponibles dans cette ville </p>
                <section>
 				<article>
@@ -60,7 +69,7 @@
 				</aside>
             </section>
 			<h4>Activités à Marseille<h4>
-                <section>
+                <section class="section-activité">
                     <div class="Activités">
                           <div class="bordure_activité"><a href="#"><img class="photo_activité" src="D.photo/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt=""></a><h4 class="nom-activité">Vieux Port</h4></div>
     
@@ -76,7 +85,8 @@
                          </div>
                     </div>
                 </section>
-               </div>
+                </div>
+               
           <footer>
               <div class="lien_footer">
                   <h4>A propos</h4>
@@ -95,6 +105,7 @@
                   <p>Nous contactez</p>
               </div>
           </footer>
+        
           
           <script src="https://kit.fontawesome.com/187560afde.js" crossorigin="anonymous"></script>
           <link rel="preconnect" href="https://fonts.gstatic.com">

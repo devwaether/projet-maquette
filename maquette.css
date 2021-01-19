@@ -5,6 +5,7 @@
     padding-top: 20px;
 }
 
+
 header {
     display: flex;
     justify-content:space-between; 
@@ -17,7 +18,7 @@ nav ul {
 
 nav li{
 
-    margin-right: 32px ;
+    margin-right: 20px ;
 }
 .titreheader{
     font-weight: bold;
@@ -26,7 +27,7 @@ nav li{
 
 nav a {
     text-decoration: none;
-    color: black
+    color: black;
     }
 a:hover {
     color:blue;
@@ -52,7 +53,10 @@ i{
     background:#EEEEEE ;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
+    
 }
+
+
 
 button{
     background-color:blue;
@@ -60,7 +64,7 @@ button{
     border-top-right-radius: 13px;
     border-bottom-right-radius: 13px;
     color: white;
-    padding: 12px; 
+    padding: 10px; 
 }
 
  input
@@ -71,6 +75,21 @@ button{
     border-right:none;
     border-bottom:1px solid #EEEEEE       
 }
+.lien {
+    border: 1px black solid;
+    height: 27px;
+    padding: 1px;
+    border-radius: 30px;
+    margin-top:11px;
+    border-left: none;
+    padding-right: 15px;
+    padding-bottom:-20px;
+     
+}
+.liens-divers{
+    margin-left: -40px;
+    }
+
 
 
 body {
@@ -89,14 +108,14 @@ P,h4,nav {
 }
 
 article{
-    position: relative;
+    position: r;
     background-color: #E3E4E4  ;
     border-radius:9px ;
     margin-bottom: 10px;
-    margin-right: 23px ;
-    padding :10px ; 
+    margin-right: 25px ;
+    padding :7px ; 
     flex:0.6  ;
-    padding-left: 20px;
+    padding-left:20px;
 }
 .titre_article{
     margin-left: 11px;
@@ -110,14 +129,15 @@ article{
 .bordure_article{
     border: 1px white solid;
     padding: 5px;
-    height: 100px;
+    height: 103px;
     border-radius: 13px;
     background:white;
     padding-bottom: 45px;
-    margin-bottom: 20px; 
+    margin-bottom: 25px; 
     margin-left:1px; 
     margin-right: 15px;  
-}
+
+    }
 .photo_article{
     border-top-left-radius: 10px; 
     border-top-right-radius :10px ;
@@ -135,7 +155,7 @@ article{
 }
 .prix-article{
     font-size: 12px;
-    margin-top: -30px;
+    margin-top: -25px;
     margin-left:5px
  }
 
@@ -145,7 +165,7 @@ article{
     border-radius:9px;
     position: relative;
     margin-bottom:10px ;
-    padding:5px;
+    padding:11px;
     flex:0.3 265px ; 
 }
 .titre_aside{
@@ -172,6 +192,7 @@ article{
     border-bottom-left-radius: 12px;
     top:-2.5px ;
     right: 3px;  
+    
 }
 
 .prix-aside {
@@ -189,9 +210,10 @@ article{
 .Activités {
     display : flex;
     margin-top:-15px;
+    margin-bottom: -30px;
 }
 .bordure_activité{
-    margin-right:28px ;
+    margin-right:35px ;
     border-radius: 15px;
     margin-bottom: 35px;    
     border: 1px white solid;
@@ -205,21 +227,20 @@ article{
       position: relative;
       margin-left:-6px;
       margin-right: -6px;
-      margin-top:-6px;  
+      margin-top:-9px;  
       margin-bottom: -10px;  
   }
 
   .nom-activité{
       font-size: 12px;
       margin-left: 7px;
-      margin-top: 6px;
-      margin-bottom:-2px;    
+      margin-top: 12px;
+      margin-bottom:6px;    
   }
 
 footer {
     display:flex;
     background-color:#E3E4E4 ;
-    margin-top: 15px;
     padding: 17px;
     font-size: 10px;
     width:1000px;
@@ -227,32 +248,38 @@ footer {
 }
 
  .lien_footer { 
-     margin-right: 230px;
+     width: auto;
+     margin-left: 20px;
+     margin-right: 200px;
  }
 
-@media screen and (max-width :1024px ) {
+@media screen and (max-width :1024px) {
 
-    #bloc_page{
-        width:auto;
+    #bloc_page {
+        width: auto;
+        margin: 30px;
         
-     }
-    
-     nav {
-         text-align :left ;
-    
-     }
-     nav ul {
-         flex-direction: column;
-         
-     }
-     .hebergement:last-child{
-         text-align: center;
-     }
+      }
+      nav ul {
+          flex-wrap:wrap;
+          width: auto;
+      }
+      .paragraphe_header{
+          font-size: 11px;
+          margin-top: 15px;
+      }
 
-     section{
-         width: 33.33%;
-         
-     }
-    
+      form {
+          
+      }
      
+
+   
+    footer {
+        
+        margin-left:10px;
+        width: auto;
+    }
+    
+
      }
