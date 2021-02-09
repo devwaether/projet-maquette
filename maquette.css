@@ -1,19 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
 #bloc_page{
     width:950px;
     margin:auto;
     padding-top: 20px;
+       
+}
+
+@media(min-width: 990px) {
+    header .main-container .header-container nav ul li {
+        padding-top: 20px;
+    }
 }
 
 
+@media(min-width: 991px) {
+
+    header .main-container .header-container nav ul {
+        
+        display: flex;  
+    }
+
+    
+    }
+    
+
+header .main-container .header-container nav ul li:first-child,
+header .main-container .header-container nav a.sinscrire {
+    color: #0065FC;
+    margin-bottom: 0px;
+}
+
 header {
-    display: flex;
-    justify-content:space-between; 
+    display:flex ;
+    justify-content:space-between
 }
 
 nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav li{
@@ -38,8 +64,15 @@ a:focus{
     color: blue;
 }
 
+@media (max-width:640px) {
+    p.textbtn {
+        display: none;
+}
+}
+
 form {
     display:flex;  
+}
 }
 
 form ::placeholder {
@@ -54,9 +87,18 @@ i{
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     
+form.recherche input {
+    background: transparent;
+    border: 1px #F2F2F2 solid;
+    padding: 11px 5vw;
+    margin-left: -4px;
+    height: 20px;
 }
 
 
+/*
+Filtres
+*/
 
 button{
     background-color:blue;
@@ -85,12 +127,33 @@ button{
     padding-right: 15px;
     padding-bottom:-20px;
      
+.filtres,
+.filtres .content {
+    display: flex;
+    flex-flow: row wrap;
 }
 .liens-divers{
     margin-left: -40px;
     }
 
+.filtres .boutonfiltre {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 200px;
+    border: 2px #F2F2F2 solid;
+    height: 50px;
+    position: relative;
+    padding-left: 55px;
+    padding-right: 14px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+    cursor: pointer;
+}
 
+.filtres .boutonfiltre:hover {
+    transform: scale(1.05);
+}
 
 body {
     background-color:white;
@@ -124,162 +187,7 @@ article{
 
 .images_article {
     display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 29px;
 }
-
-.bordure_article{
-    border: 1px white solid;
-    padding: 5px;
-    height: 103px;
-    border-radius: 13px;
-    background:white;
-    padding-bottom: 45px;
-    margin-bottom: 25px; 
-    margin-left:1px; 
-    margin-right: 15px;  
-
-    }
-.photo_article{
-    border-top-left-radius: 10px; 
-    border-top-right-radius :10px ;
-    position: relative;
-    top: -3px;
-    margin-left:-3px;
-    margin-right:-3px ;  
-}
-
-.nom-article{
-    font-size: 12px;
-    margin-top: 3px;
-    margin-left:5px;
-    font-weight: bold;
-}
-.prix-article{
-    font-size: 12px;
-    margin-top: -25px;
-    margin-left:5px
- }
-
- aside {
-    
-    background-color :#E3E4E4  ;
-    border-radius:9px;
-    position: relative;
-    margin-bottom:10px ;
-    padding:11px;
-    flex:0.3 265px ; 
-}
-.titre_aside{
-    margin-left: 11px;
-    margin-top: 10px;
-}
-
-.bordure_aside {
-    border: 1px white solid;
-    width: 88%;
-    padding: 5px;
-    height: 100px;
-    border-radius: 16px;
-    background: white;
-    margin-bottom: 18px;
-    padding-bottom: 0px;
-    padding-top: 4px;
-    margin-left: 9px;  
-}
-
-.photo_aside{
-    position: relative;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-    top:-2.5px ;
-    right: 3px;  
-    
-}
-
-.prix-aside {
-
-    font-size: 12px;
-    margin-top: -10px;
-    margin-left:110px;
-}
-
-.nom-aside{
-    font-size: 12px;
-    margin-top:-93px;
-    margin-left:110px;  
-}
-.Activités {
-    display : flex;
-    margin-top:-15px;
-    margin-bottom: -30px;
-}
-.bordure_activité{
-    margin-right:35px ;
-    border-radius: 15px;
-    margin-bottom: 35px;    
-    border: 1px white solid;
-    padding: 5px;  
-     box-shadow: 0 1px 10px -6px #777 ;
-  }
-
-  .photo_activité{
-      border-top-left-radius: 12px;
-      border-top-right-radius: 12px;
-      position: relative;
-      margin-left:-6px;
-      margin-right: -6px;
-      margin-top:-9px;  
-      margin-bottom: -10px;  
-  }
-
-  .nom-activité{
-      font-size: 12px;
-      margin-left: 7px;
-      margin-top: 12px;
-      margin-bottom:6px;    
-  }
-
-footer {
-    display:flex;
-    background-color:#E3E4E4 ;
-    padding: 17px;
-    font-size: 10px;
-    width:1000px;
-    margin-left:150px;    
-}
-
- .lien_footer { 
-     width: auto;
-     margin-left: 20px;
-     margin-right: 200px;
- }
-
-@media screen and (max-width :1024px) {
-
-    #bloc_page {
-        width: auto;
-        margin: 30px;
-        
-      }
-      nav ul {
-          flex-wrap:wrap;
-          width: auto;
-      }
-      .paragraphe_header{
-          font-size: 11px;
-          margin-top: 15px;
-      }
-
-      form {
-          
-      }
-     
-
-   
-    footer {
-        
-        margin-left:10px;
-        width: auto;
-    }
-    
-
-     }
