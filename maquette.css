@@ -1,93 +1,160 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
-#bloc_page{
-    width:950px;
-    margin:auto;
-    padding-top: 20px;
-       
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+.header-logo {
+    margin-left: 12px;
+    margin-top:20px;
 }
 
-@media(min-width: 990px) {
-    header .main-container .header-container nav ul li {
-        padding-top: 20px;
+body {
+    margin: 0px;
+    font-family: "Raleway";
+    
+}
+.container{
+   
+        margin:auto;
+        width: 90vw;      
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between; 
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;  
+}
+h1 {
+    font-size: 17px
+}
+nav ul {
+    display: flex;
+    margin-top: 0px; 
+ }
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav li.nav-activité ,.header-suscribe {
+    margin-top: 20px; 
+}
+nav ul li:first-child, nav a.sinscrire {
+    color: #1591C5;
+    margin-bottom: 0px;
+    list-style: none;
+}
+.nav-activité{
+    list-style: none;
+}
+nav a.sinscrire {
+    margin-left: 30px;
+}
+
+
+@media(max-width: 991px) {
+   
+    .nav-activité {
+        text-align: center;
+        border-bottom: 3px solid #f2f2f2;
+        min-width: 50%;
+        padding: 14px ;
+        margin: auto;
+    }
+    
+    .nav-hébergement {
+        text-align: center;
+        padding: 14px ;
+        min-width: 50%;
+        margin: auto ;
+        border-bottom: 3px blue solid;
+    }
+    
+    .header-nav {
+        position: absolute;
+        width: 110%;
+        bottom: 77%;
+        left:0;
+        align-content: center;
+        margin-left: -10%; 
+        cursor: pointer;
+        transform: scale(1.05);
+
+    }
+    a:hover {
+        color: blue;
+    }
+    
+    .header-logo {
+        margin-top: 3px;
+    }
+    .container {
+        margin-left:20px
     }
 }
+
 
 
 @media(min-width: 991px) {
-
-    header .main-container .header-container nav ul {
-        
-        display: flex;  
+    .header-nav li.nav-hébergement {
+        text-align: center;
+        border-top: 3px  solid #0065FC;
+        padding: 34px ;  
     }
 
-    
+    .container nav li {
+        margin: 0 25px;
+        padding-top: 18px;   
     }
-    
+     
+  }
 
-header .main-container .header-container nav ul li:first-child,
-header .main-container .header-container nav a.sinscrire {
-    color: #0065FC;
-    margin-bottom: 0px;
+@media (max-width:991px) {
+    .reservia-search {
+        margin-top: 100px;
+    }
+    .zone-de-formulaire  h1 {
+        font-size: 25px;
+    }
+
+ }
+
+.formulaire-reservia button[type="icon"] {
+    padding: 6px 18px;
+    background: #f2f2f2;
+    font-size: 17px;
+    border-radius: 16px 0 0 16px;
+    border: 1px #f2f2f2 solid;
+   
 }
-
-header {
-    display:flex ;
-    justify-content:space-between
-}
-
-nav ul {
-    list-style: none;
+.formulaire-reservia button[type="suscribe"] {
     display: flex;
-    flex-wrap: wrap;
-}
-
-nav li{
-
-    margin-right: 20px ;
-}
-.titreheader{
-    font-weight: bold;
-    margin-bottom: -10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    }
-a:hover {
-    color:blue;
-    border-top: 1px blue solid;
-    padding-top: 25px;
-}
-a:focus{
-    color: blue;
+    background: #0065FC;
+    border-radius: 0 16px 16px 0;
+    color: #FFF;
+    padding: 0px 20px;
+    border: 1px #0065FC solid;
 }
 
 @media (max-width:640px) {
-    p.textbtn {
+    .btn-text {
         display: none;
+    }
 }
+@media (min-width:640px) {
+    .btn-icon {
+        display: none;
+    }
 }
-
-form {
-    display:flex;  
-}
-}
-
-form ::placeholder {
-    color:black;
-    font-weight: bold;
+.formulaire-reservia {
+    display: flex;
 }
 
-i{
-    border: 1px solid #EEEEEE;
-    padding: 12px;
-    background:#EEEEEE ;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-    
-form.recherche input {
+.formulaire-reservia input {
     background: transparent;
     border: 1px #F2F2F2 solid;
     padding: 11px 5vw;
@@ -95,99 +162,278 @@ form.recherche input {
     height: 20px;
 }
 
-
-/*
-Filtres
-*/
-
-button{
-    background-color:blue;
-    border: 1px solid cornflowerblue;
-    border-top-right-radius: 13px;
-    border-bottom-right-radius: 13px;
-    color: white;
-    padding: 10px; 
+.search-button p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.search-filters-class-principale {
+    display: flex; 
+    margin-top: 20px;
+    
 }
 
- input
-{   
-    padding:8px;
-    border-top:1px solid #EEEEEE;
-    border-left:none;
-    border-right:none;
-    border-bottom:1px solid #EEEEEE       
-}
-.lien {
-    border: 1px black solid;
-    height: 27px;
-    padding: 1px;
-    border-radius: 30px;
-    margin-top:11px;
-    border-left: none;
-    padding-right: 15px;
-    padding-bottom:-20px;
-     
-.filtres,
-.filtres .content {
+.search-filters-class-principale,
+ .search-choice {
     display: flex;
     flex-flow: row wrap;
+    
+    
 }
-.liens-divers{
-    margin-left: -40px;
-    }
 
-.filtres .boutonfiltre {
+.search-choice{
+    margin-top: 5px;
+   
+}
+ .search-title {
+    margin-bottom: 10px;
+    padding-top: inherit;
+    padding-right: 20px;  
+    
+}
+ .search-button {
     display: flex;
-    justify-content: space-between;
-    border-radius: 200px;
-    border: 2px #F2F2F2 solid;
+    border-radius: 180px;
+    border: 2px #f2f2f2 solid;
     height: 50px;
     position: relative;
-    padding-left: 55px;
+    padding-left:60px;
     padding-right: 14px;
-    margin-right: 20px;
+    margin-right: 16px;
     margin-bottom: 10px;
-    transition: transform .2s;
-    cursor: pointer;
+    cursor: pointer; 
 }
-
-.filtres .boutonfiltre:hover {
+.search-button:hover {
     transform: scale(1.05);
 }
-
-body {
-    background-color:white;
+ 
+ .search-button i {
+    line-height: 50px;
+    color: #0065FC;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    background: #DEEBFF;
+    left: -2px;
+    border-radius: 100%;
 }
 
-section {
-    display: flex  ;  
-    margin-bottom: 40px;
-    margin-top: 30px;
+.information-logement {
+    display: flex;
 }
-
-P,h4,nav {
-    font-family: 'Raleway', sans-serif;
-    color: black;
-}
-
-article{
-    position: r;
-    background-color: #E3E4E4  ;
-    border-radius:9px ;
-    margin-bottom: 10px;
-    margin-right: 25px ;
-    padding :7px ; 
-    flex:0.6  ;
-    padding-left:20px;
-}
-.titre_article{
-    margin-left: 11px;
-    margin-top: 10px;
-}
-
-.images_article {
-    display: flex;  
+.information-logement i {
+    border: 2px solid #F2F2F2;
+    width: 29px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #0065FC;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 5px;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 29px;
+}
+.paragraphe-infos-logement {
+    margin-left: 10px;
+    margin-top: 23px;
+    
+}
+.header-section {
+    font-size: 12px;
+}
+.couleur {
+    margin-bottom: 50px;
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px ;
+   
+}
+.article-section {
+    
+    border-radius: 20px;
+    padding:0.300rem; 
+    position: relative;
+    background:white;
+    margin:8px ;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: inline-block;
+    margin-left: 14px;
+    padding-bottom: 9px;
+   
+}
+.pourcentage {
+    width: 60vw;
+    margin: auto;
+}
+.pourcentages {
+    width: 20vw;
+    margin: auto;
+}
+.Hébergements-section{
+    display:flex ;
+}
+
+.image-article img{
+    
+    border-top-left-radius:20px;  
+    border-top-right-radius:20px;
+    top: -5px;
+    max-height: 100%; 
+    max-width: 100%;   
+}
+.image-aside img {
+    max-height: 100%; 
+    max-width: 100%;  
+}
+.image-activité{
+    max-height: 100%; 
+    max-width: 100%; 
+}
+
+.paragraphe-article{ 
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.prix-des-chambres {
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.icon{
+    color: blue;
+    margin-left: 10px;
+    margin-top:-10px ;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+
+.article-aside {
+  
+    border-radius: 20px;
+    position: relative;
+    padding: 0.200rem;
+    display: flex;
+    background-color: white;
+    border: 1px white solid;
+    margin-bottom: 23px   
+    
+}   
+
+.header-style {
+    margin-left: 50px;
+}
+.aside-couleur {
+    background-color: #f2f2f2;
+   
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.article-aside img {
+    border-top-left-radius:15px;  
+    border-bottom-left-radius:15px;
+    position: relative;
+    top: -2px;
+    width: 100%;
+    height: 100%;
+    margin-top: 2px;  
+}
+
+
+.header-aside{
+    font-size: 12px;
+}
+.paragraphe-aside {
+    font-size: 12px;
+    margin-left: 15px;
+    top:8px  
+}
+.icon-aside {
+     font-size: 10px;
+     color: #0065FC;
+     margin-left: 15px;
+     margin-top: 40px;
+}
+.prix-aside{
+    font-size:12px ;
+    margin-left: 15px;
+     
+    margin-top: -4px;
+}
+.aside-reservia{
+margin-left: 40px;
+flex: 0.9;
+}
+
+
+
+.Activités{
+    margin-left: 20px; 
+    
+}
+.width-activités {
+    width: 90vw;
+    margin: auto; 
+    flex:2
+ }
+.titre-activité {
+    margin-left:20px;
+    margin-top:10px;
+    font-size:12px
+}
+ 
+.activités-images  {
+     display: flex;  
+}
+.activités-images-bloc2{
+    display: flex;
+    margin-left: 30px;
+}
+.colone {
+    flex-direction: column;
+    margin-left: 30px;
+   
+}
+
+.img-activité-n5:hover , .img-activité-n6:hover, .img-activité-n4:hover,.img-activité-n3:hover,.img-activité-n2:hover,.img-activité-n1:hover{
+    transform: scale(1.05);
+}
+
+.img-activité-n5, .img-activité-n6,.img-activité-n4 , .img-activité-n3,.img-activité-n2,.img-activité-n1{
+    box-shadow:0 0 20px#00000018;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    margin-bottom:33px;
+    cursor: pointer;
+    max-height: 100%; 
+    max-width: 100%; 
+   
+}
+.box-shadow{
+    box-shadow:0 0 20px #00000018;
+}
+
+.img-activité {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+}
+
+
+.Footer {
+    display: flex;
+     background: #f2f2f2;
+    padding: 10px; 
+    width: 95vw;
+}
+
+.footer-block{
+    width: 30%;
+    margin-left: 70px;
+    
 }
