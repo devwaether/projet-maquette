@@ -1,22 +1,25 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-.header-logo {
+.logo {
     margin-left: 12px;
     margin-top:20px;
 }
 
 
 body {
-    margin: 0;
+    margin:0px;
     font-family: "Raleway";
     
+}
+.nav-sincrire{
+    margin-top: 13px;
 }
 
 
 .head{
     display: flex;
     justify-content: space-between; 
-    max-width: 1200px;
+    max-width: 1220px;
     margin: auto;
 }
 .nav-hébergement { 
@@ -24,7 +27,7 @@ body {
 }
 
 .main{
-    max-width: 1200px;
+    max-width: 1220px;
     margin: auto;
 }
 
@@ -49,15 +52,17 @@ nav ul {
     margin-top: 20px; 
 }
 nav ul li:first-child, nav a.sinscrire {
-    color: #1591C5;
+    color: #0065FC;
     margin-bottom: 0px;
     list-style: none;
 }
 .nav-activité{
     list-style: none;
+    padding: 13px;
 }
 nav a.sinscrire {
     margin-left: 30px;
+    
 }
 
 
@@ -100,11 +105,15 @@ nav a.sinscrire {
     
 }
 
-@media(min-width: 991px) {
-    .header-nav li.nav-hébergement {
-        text-align: center;
+@media screen and  (min-width: 991px) {
+    .nav-hébergement {
+        
         border-top: 3px  solid #0065FC;
-        padding: 34px ;  
+        margin-top: 0px; 
+        padding: 30px;
+        margin-right: 20px;
+        color: #1591C5;
+        font-weight: bold
     }
   
   }
@@ -199,6 +208,11 @@ nav a.sinscrire {
 .search-button:hover {
     transform: scale(1.05);
 }
+
+.sous-titre {
+    margin-left:30px;
+}
+
  
  .search-button i {
     line-height: 50px;
@@ -239,9 +253,18 @@ nav a.sinscrire {
 .couleur {
     
     background: #f2f2f2;
-    padding: 20px;
-    border-radius: 20px ;
-   
+    padding: 10px;
+    border-radius: 20px ; 
+  
+  
+}
+
+
+.block-div-hebergement{
+      display: flex;
+    margin-bottom: -10px;
+    margin-left:11px;
+    flex-wrap: wrap; 
    
 }
 .article-section {
@@ -253,22 +276,22 @@ nav a.sinscrire {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     padding-bottom: 8px;
-    margin-right:15px;
-
-}
-
-.block-div-hebergement{
-    display: flex;
-    margin-bottom: -10px;
-    margin-left:12px
-}
-
-.block-div-hebergement2 {
+    margin-left:   15px;
     
-    display: flex;
-    margin-bottom: -10px;
-    margin-top: 31px;
-    margin-left:12px
+}
+
+.article-section1 , .article-section2 , .article-section3 {
+
+    border-radius: 20px;
+    padding:0.300rem; 
+    position: relative;
+    background:white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-bottom: 8px;
+    margin-left:   15px;
+    
+    margin-bottom: 20px;
     
 }
 
@@ -279,6 +302,7 @@ nav a.sinscrire {
 
 .Hébergements-section{
     display:flex ;
+   
 }
 
 .image-article img{
@@ -287,12 +311,10 @@ nav a.sinscrire {
     border-top-right-radius:20px;
     top: -5px;
     max-height: 100%; 
-    max-width: 100%;   
-}
-.image-aside  {
-    max-height: 100%; 
     max-width: 100%;  
-}
+    width: 240px; 
+    }
+   
 .image-activité{
     max-height: 100%; 
     max-width: 100%; 
@@ -325,12 +347,10 @@ nav a.sinscrire {
     padding: 0.200rem;
     display: flex;
     background-color: white;
-    border: 1px white solid;
-    
+    border: 1px white solid;  
 } 
 .aside-block{
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 } 
 
 .header-style {
@@ -340,20 +360,22 @@ nav a.sinscrire {
 .aside-couleur {
     background-color: #f2f2f2;
     border-radius: 20px;
-    padding: 20px;
-    
-   
+    padding: 25px;
 }
+
+    
 
 .article-aside img {
     border-top-left-radius:15px;  
     border-bottom-left-radius:15px;
     position: relative;
     top: -2px;
-    width:100%;
+    margin-top: 2px; 
+    width: 100%;
     height: 100%;
-    margin-top: 2px;  
+    
 }
+
 
 
 .header-aside{
@@ -372,17 +394,11 @@ nav a.sinscrire {
 .prix-aside{
     font-size:12px ;
     margin-left: 11px;
-    margin-BOTTOM: 40px;
+    margin-BOTTOM: 30px;
 }
 .aside-reservia{
-margin-left: 35px;
-width: 30%;
-
-}
-
-.Activités{
-    margin-left: 20px; 
-        
+margin-left: 25px;
+width: 55%;
 }
 
 .titre-activité {
@@ -418,7 +434,7 @@ display: flex;
 
 .img-activité-n5:hover , .img-activité-n6:hover,
  .img-activité-n4:hover,.img-activité-n3:hover,.img-activité-n2:hover,.img-activité-n1:hover ,.article-aside:hover ,
-  .article-section:hover,.lien-a:hover{
+  .article-section:hover,.lien-a:hover ,.article-section1:hover , .article-section2:hover , .article-section3:hover{
     transform: scale(1.05);
 }
 
@@ -460,125 +476,8 @@ display: flex;
 .footer-block {
     width: 30%;
     padding: 30px;
-    margin-left:100px;
+    margin-left:10px;
 }
 
-@media screen and (max-width :1200px ) {
-    
-    .main{
-        width: auto;
-        margin: auto;
-        margin-right: 40px;
-        margin-left: 40px;
 
-    }
-
-    .head{
-        width: auto;
-        margin: auto;
-        margin-right: 40px;
-        margin-left: 40px;
-        
-    }
-
-    .footer-display {
-        color: red;
-        background: #0065FC;
-         width: auto;
-        margin: auto;
-    }
-
-    .Footer{
-        width: 100%;
-    }
-
-    body {
-        margin: auto;
-        width: auto;
-        
-    }
-    .img-activité-n5, .img-activité-n6, .img-activité-n3,.img-activité-n2{
-
-        margin-bottom: 25px;
-    }
-  }
-
-    
-    @media screen and (max-width:1154px) {
-        .Hébergements-section{
-            flex-direction: column;
-            margin-bottom: 20px;
-        } 
-        
-        .couleur{
-            margin-bottom: 40px;
-        }  
-        
-        
-        .article-section img {
-            width: 310px;
-
-        }
-        .block-div-hebergement2{
-            margin-bottom:20px;
-            margin-right: 13px; 
-           
-        }
-        .block-div-hebergement{
-            margin-right: 13px;
-            margin-bottom: 10px; 
-        }
-
-        .article-section{
-            padding:5px;
-            margin-left: 15px;
-        }
-        .aside-reservia{
-            margin-top:40px; 
-            width:auto ;
-            margin:0px;
-            
-        }
-        .article-aside{
-            margin-right:30px ;
-
-            
-        }
-
-    
-        .image-aside{
-            width: 50%;
-        }
-        .figction-aside{
-            margin-right: 15px;
-        }
-
-        .media{
-            display: flex;
-            margin-left: 30px;
-        }
-
-        .footer-block{
-            margin-left: 50px;
-        }
-       
-    }
-
-    @media screen and (max-width:1066px) {
-
-        .media {
-            flex-direction: column;
-            
-        }
-
-        
-        .image-aside{
-            width: 20%;
-        }
-         
-        
-        
-       
-    }
-   
 
